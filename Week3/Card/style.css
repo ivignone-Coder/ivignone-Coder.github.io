@@ -1,0 +1,26 @@
+div.card{
+    background-color: white;
+    width: 500px;
+    height: 700px;
+    padding: 36px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 150%;
+    font-family: "Happy Monkey", system-ui;
+    object-fit: fill;
+    box-shadow: 10px 15px rgba(253, 220, 6, 0.864);
+}
+
+h1::first-letter {
+    font-size: 200%;
+}
+
+.card button{
+    background-color: white;
+}
+
+.card button:hover{
+    background-color:black;
+    color: white;
+}
