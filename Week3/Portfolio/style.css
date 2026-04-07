@@ -1,0 +1,74 @@
+/*deafult colors*/
+
+*{
+    --dim-grey: #656565ff;
+    --grey-olive: #808782ff;
+    --celadon: #a6d3a0ff;
+    --tea-green: #d1ffd7ff;
+    --light-green: #b3ffb3ff;
+}
+
+body {
+    background-color: var(--light-green);
+    background-image: url(./assets/css-pattern-by-magicpattern\ \(1\).png)
+
+}
+
+.body-cards {
+    color: black;
+    font-family: "Urbanist", sans-serif;
+    font-size: 150%;
+}
+
+#name:hover {
+    border-right: dimgrey solid 25px;
+    border-bottom: darkslategray solid 25px;
+    transition: all 1.5s;
+}
+
+#description:hover {
+    border-left: dimgrey solid 25px;
+    border-bottom: darkslategray solid 25px;
+    transition: all 1.5s;
+}
+
+#goals:hover {
+    border-right: dimgrey solid 25px;
+    border-bottom: darkslategray solid 25px;
+    transition: all 1.5s;
+}
+
+#skills:hover {
+    border-right: dimgrey solid 25px;
+    border-left: dimgrey solid 25px;
+    border-bottom: darkslategray solid 25px;
+    transition: all 1.5s;
+}
+
+#games:hover {
+    border-right: dimgrey solid 25px;
+    border-left: dimgrey solid 25px;
+    border-bottom: darkslategray solid 25px;
+    transition: all 1.5s;
+}
+
+#Terraria:hover {
+    border-right: dimgrey solid 25px;
+    border-left: dimgrey solid 25px;
+    border-bottom: darkslategray solid 25px;
+    transition: all 1.5s;
+}
+
+#Minecraft:hover {
+    border-right: dimgrey solid 25px;
+    border-left: dimgrey solid 25px;
+    border-bottom: darkslategray solid 25px;
+    transition: all 1.5s;
+}
+
+#RedDead:hover {
+    border-right: dimgrey solid 25px;
+    border-left: dimgrey solid 25px;
+    border-bottom: darkslategray solid 25px;
+    transition: all 1.5s;
+}
